@@ -1,43 +1,45 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
+ 
   {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: '/',   
+    label: 'NFT',
+    icon: 'NftIcon',
+    items: [
+     {
+       label: 'Mint',
+       href: '',
+     },
+     {
+       label: 'StakeNFT',
+       href: '',
+     },
+     {
+       label: 'Dashboard',
+       href: '',
+     },
+     
+   ],
+   calloutClass: "rainbow",
   },
-  
+
   {
     label: 'Farms',
-    icon: 'FarmIcon',
+    icon: 'LayerIcon',
     href: '/farms',
-    calloutClass: "rainbow",
+    
   },
   {
     label: 'Stake',
-    icon: 'PoolIcon',
+    icon: 'LayerIcon',
     href: '/nests',
-    calloutClass: "rainbow",
-  },
-   {
-     label: 'NFT',
-     icon: 'NftIcon',
-     items: [
-      {
-        label: 'Mint',
-        href: '',
       },
-      {
-        label: 'StakeNFT',
-        href: '',
+     {
+        label: 'Stats',
+        icon: 'HandshakeIcon',
+        href: '/',   
       },
-      {
-        label: 'Dashboard',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      
-    ],
-   },
+
  /* {
     label: 'Info',
     icon: 'InfoIcon',
