@@ -12,8 +12,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   body {
-    background-color: ${({ theme }) => theme.colors.background};
-
+    background-image: url('/images/egg/back.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
     img {
       height: auto;
       max-width: 100%;

@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total EGG burned since launch"
+        "text": "Total NFTD burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn EGG"
+        "text": "Stake LP tokens to earn NFTD"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Egg, get SYRUP."
+        "text": "Stake NFTD, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake EGG tokens, the contract will automatically harvest EGG rewards for you!"
+        "text": "Every time you stake and unstake NFTD tokens, the contract will automatically harvest NFTD rewards for you!"
       }
     },
     {
@@ -213,13 +213,13 @@
     {
       "data": {
         "stringId": 356,
-        "text": "View on BscScan"
+        "text": "View on Explorer"
       }
     },
     {
       "data": {
         "stringId": 358,
-        "text": "Egg price"
+        "text": "NFTD price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 EGG = 1 SYRUP"
+        "text": "1 NFTD = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of EGG block emissions each day (10 EGG per block), Rewards are distributed each block."
+        "text": ""
       }
     },
     {
@@ -351,7 +351,7 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% EGG"
+        "text": "%num% NFTD"
       }
     },
     {
@@ -435,13 +435,13 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% EGG Available"
+        "text": "%num% NFTD Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 EGG"
+        "text": "Your amount must be a multiple  NFTD"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve EGG"
+        "text": "Approve NFTD"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of EGG block emissions each day (10 EGG per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of NFTD block emissions each day (10 NFTD per block), Rewards are distributed each block."
       }
     },
     {
@@ -579,7 +579,7 @@
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Goose Finance burns the EGG."
+        "text": "The project gets the BNB,  burns the NFTD."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Egg Stats"
+        "text": "NFTDoge Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New EGG\/block"
+        "text": "New NFTD\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "EGG to Harvest"
+        "text": "NFTD to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "EGG in Wallet"
+        "text": "NFTD in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting EGG"
+        "text": "Collecting NFTD"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "EGG to Collect"
+        "text": "NFTD to Collect"
       }
     },
     {
@@ -753,19 +753,19 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Goose Finance"
+        "text": "DOGEBOX"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "Top 3 best DEFI app on Binance Smart Chain."
+        "text": "NFTDoge"
       }
     },
     {
       "data": {
         "stringId": 580,
-        "text": "Stake EGG to earn new tokens."
+        "text": "Stake NFTD to earn new tokens."
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback EGG"
+        "text": ""
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn EGG"
+        "text": "Stake tokens to earn NFTD"
       }
     },
     {

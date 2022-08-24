@@ -18,7 +18,7 @@ import { getBalanceNumber } from '../../../utils/formatBalance'
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center right;
   min-height: 376px;
 `
 

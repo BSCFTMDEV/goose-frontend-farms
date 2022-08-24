@@ -25,7 +25,8 @@ export enum QuoteToken {
   'SYRUP' = 'SYRUP',
   'BUSD' = 'BUSD',
   'TWT' = 'TWT',
-  'UST' = 'UST',
+  
+
 }
 
 export enum PoolCategory {
@@ -35,8 +36,9 @@ export enum PoolCategory {
 }
 
 export interface Address {
-  97?: string
-  56: string
+ // 97: string
+ 2000: string
+
 }
 
 export interface FarmConfig {
