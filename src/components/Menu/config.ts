@@ -4,8 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
-    calloutClass: "rainbow",
+    href: '/',   
   },
   
   {
@@ -20,21 +19,25 @@ const config: MenuEntry[] = [
     href: '/nests',
     calloutClass: "rainbow",
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
+   {
+     label: 'NFT',
+     icon: 'NftIcon',
+     items: [
+      {
+        label: 'Mint',
+        href: '',
+      },
+      {
+        label: 'StakeNFT',
+        href: '',
+      },
+      {
+        label: 'Dashboard',
+        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+      },
+      
+    ],
+   },
  /* {
     label: 'Info',
     icon: 'InfoIcon',
