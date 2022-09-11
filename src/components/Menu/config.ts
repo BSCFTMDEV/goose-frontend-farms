@@ -9,7 +9,7 @@ const config: MenuEntry[] = [
    
     items: 
     [
-     {
+    /* {
        label: 'Mint',
        href: 'https://nfts.dogebox.dog/Mint',
      },
@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
        label: 'Dashboard',
        href: 'https://nfts.dogebox.dog/portal',
      },
-     
+     */
    ], 
    calloutClass: "rainbow",
   },
