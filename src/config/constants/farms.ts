@@ -2,48 +2,83 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
- 
   {
-    pid: 2,
-    risk: 5,
-    isTokenOnly: true,
-    lpSymbol: 'NFTD',
+    pid: 0,
+    risk: 3,
+    lpSymbol: 'DGB-BUSD LP',
     lpAddresses: {
-    
-      2000: '0xfEee5231BB5656756f0F78AF6Fdb92Ec2314023c', // NFTD-BUSD LP
+      2000:'0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17',
+      
+    },
+    tokenSymbol: 'EGG',
+    tokenAddresses: {
+      2000:'0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
+      
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  }, 
+
+  {
+    pid: 1,
+    risk: 5,
+    lpSymbol: 'DGB-WDOGE LP',
+    lpAddresses: {
+      
+      2000:'0x76539ea52BC9CaE979856fC79fE87373d1A9aD1C',
     },
     tokenSymbol: 'EGG',
     tokenAddresses: {
       
-      2000: '0x385e69eE31858d98c7346aD109FB795786bFF8C4',
+      2000:'0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   }, 
+
   {
-    pid: 1,
-    risk: 1,
-    lpSymbol: 'BNB-BUSD LP',
+    pid: 2,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'DGB',
     lpAddresses: {
-      
-     2000: '0xf4887cef251e6bafed9478f115b92aeba81d88f7',
-      
+    
+      2000: '0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17', // DGB-BUSD LP
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'EGG',
     tokenAddresses: {
       
-      2000: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
+      2000: '0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   }, 
+ 
   {
     pid: 3,
-    risk: 5,
-    lpSymbol: 'NFTD-WWDOGE LP',
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'DC',
     lpAddresses: {
       
-      2000:'0x225e9AAAa9D3697F3E0E1a9CfCB4960410572548',
+      2000: '0xd2333137d28710acEd9E8572D8bf4Baf184e6d16',
+    },
+    tokenSymbol: 'dc',
+    tokenAddresses: {
+      
+      2000: '0x7B4328c127B85369D9f82ca0503B000D09CF9180',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+/*
+  {
+    pid: 4,
+    risk: 5,
+    lpSymbol: 'USDC-WWDOGE LP',
+    lpAddresses: {
+      
+      2000:'0x8dcebe9f071562d52b5abb17235f3bca768c1e44',
     },
     tokenSymbol: 'EGG',
     tokenAddresses: {
@@ -53,23 +88,12 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   }, 
-  {
-    pid: 0,
-    risk: 3,
-    lpSymbol: 'NFTD-BUSD LP',
-    lpAddresses: {
-      2000:'0xfEee5231BB5656756f0F78AF6Fdb92Ec2314023c',
-      
-    },
-    tokenSymbol: 'EGG',
-    tokenAddresses: {
-      2000:'0x385e69eE31858d98c7346aD109FB795786bFF8C4',
-      
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  }, 
- /* {
+
+*/
+
+/*
+
+    {
     pid: 3,
     risk: 1,
     lpSymbol: 'USDT-BUSD LP',
@@ -180,24 +204,8 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 11,
-    risk: 4,
-    lpSymbol: 'CAKE-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xa527a61703d82139f8a06bc30097cc9caa2df5a6',
-    },
-    tokenSymbol: 'CAKE',
-    tokenAddresses: {
-      97: '',
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
   }, */
-  
+ 
    /* {
     pid: 13,
     risk: 1,

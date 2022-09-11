@@ -1,14 +1,14 @@
 export default {
   cake: {
-    2000: '0x385e69eE31858d98c7346aD109FB795786bFF8C4',
+    2000: '0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
    //   97: '0x98b3e4a1E8ff9ED72e90e5B62Debe25b4A866aAC',
   },
   masterChef: {
-    2000: '0xd8dB4c5203c2cf07C475993E854aAB9156E05119',
+    2000: '0x5702d5BB73dfD8DC3bd59467BE6ed70A06D75B23',
    //   97: '0xb589cCe27fdAb3C9faD158ECB2fCDF214eEEbe06',
   },
   wbnb: {
-    2000: '0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101',  // wwdoge
+    2000: '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',  // wdoge
    //   97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
   },
   lottery: {

@@ -3,42 +3,71 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 const config: MenuEntry[] = [
  
   {
-    label: 'NFT',
+    label: 'NFTS',
     icon: 'NftIcon',
-    items: [
+    href: '/nft',
+   
+    items: 
+    [
      {
        label: 'Mint',
-       href: '',
+       href: 'https://nfts.dogebox.dog/Mint',
      },
      {
        label: 'StakeNFT',
-       href: '',
+       href: 'https://nfts.dogebox.dog/Mining',
      },
      {
        label: 'Dashboard',
-       href: '',
+       href: 'https://nfts.dogebox.dog/portal',
      },
      
-   ],
+   ], 
    calloutClass: "rainbow",
   },
+  
+  {
+    label: 'Stats',
+    icon: 'RoadmapIcon',
+    href: '/',
+    calloutClass: "rainbow",
+  },
+
 
   {
     label: 'Farms',
     icon: 'LayerIcon',
     href: '/farms',
-    
+    calloutClass: "rainbow",
   },
+
+  
   {
     label: 'Stake',
-    icon: 'LayerIcon',
+    icon: 'BondsIcon',
     href: '/nests',
-      },
-     {
-        label: 'Stats',
-        icon: 'HandshakeIcon',
-        href: '/',   
-      },
+    calloutClass: "rainbow",
+  },
+
+
+  {
+    label: 'Telegram',
+    icon: 'TelegramIcon',
+    href: 'https://t.me/DogeboxNFT',
+  calloutClass: "rainbow",
+  },
+  {
+    label: 'GitHub',
+    icon: 'AuditIcon',
+    href: 'https://github.com/DogeBoxClub?tab=repositories',
+    calloutClass: "rainbow",
+  },
+
+ 
+
+
+
+
 
  /* {
     label: 'Info',

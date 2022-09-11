@@ -8,10 +8,12 @@ import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+import Tokenomics from './components/Tokenomics'
+
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/egg/3.png');
+  background-image: url('/images/egg/3c.png');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,9 +25,9 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/egg/3.png');         
-    background-position: right center,  center;
-    height: 165px;
+    background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
+    background-position: left center, right center;
+    height: 300px;
     padding-top: 0;
   }
 `
@@ -48,7 +50,7 @@ const Cards = styled(BaseLayout)`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     & > div {
-      grid-column: span 6;
+      grid-column: span 12;
     }
   }
 `
@@ -59,17 +61,19 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
+        <Heading as="h1" size="xl" mb="30px" color="#FFFFFF">
           {TranslateString(576, 'Goose Finance')}
         </Heading>
         <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
-        <Cards>
+        <Cards> 
           <FarmStakingCard />
-        
           <CakeStats />
-          <TotalValueLockedCard />
+          <TwitterCard/> 
+       {/*  <TotalValueLockedCard /> */}
+        {/*  <Tokenomics/> */}
+          
         </Cards>
       </div>
     </Page>

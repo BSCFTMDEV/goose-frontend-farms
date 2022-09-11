@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total NFTD burned since launch"
+        "text": "Total DGB burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn NFTD"
+        "text": "Stake YodeSwap LP tokens to earn DGB"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake NFTD, get SYRUP."
+        "text": "Stake DGB, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake NFTD tokens, the contract will automatically harvest NFTD rewards for you!"
+        "text": "Every time you stake and unstake DGB tokens, the contract will automatically harvest DGB rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "NFTD price"
+        "text": "DGB price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 NFTD = 1 SYRUP"
+        "text": "1 DGB = 1 SYRUP"
       }
     },
     {
@@ -351,7 +351,7 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% NFTD"
+        "text": "%num% DGB"
       }
     },
     {
@@ -435,13 +435,13 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% NFTD Available"
+        "text": "%num% DGB Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple  NFTD"
+        "text": "Your amount must be a multiple  DGB"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve NFTD"
+        "text": "Approve DGB"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of NFTD block emissions each day (10 NFTD per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of DGB block emissions each day (10 DGB per block), Rewards are distributed each block."
       }
     },
     {
@@ -579,7 +579,7 @@
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB,  burns the NFTD."
+        "text": "The project gets the BNB,  burns the DGB."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "NFTDoge Stats"
+        "text": "DogeBox Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New NFTD\/block"
+        "text": "New DGB\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "NFTD to Harvest"
+        "text": "DGB to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "NFTD in Wallet"
+        "text": "DGB in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting NFTD"
+        "text": "Collecting DGB"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "NFTD to Collect"
+        "text": "DGB to Collect"
       }
     },
     {
@@ -759,13 +759,13 @@
     {
       "data": {
         "stringId": 578,
-        "text": "NFTDoge"
+        "text": "FARMS AND STAKE DogeBoxToken"
       }
     },
     {
       "data": {
         "stringId": 580,
-        "text": "Stake NFTD to earn new tokens."
+        "text": "Stake DGB to earn new tokens."
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn NFTD"
+        "text": "Stake tokens to earn DGB"
       }
     },
     {

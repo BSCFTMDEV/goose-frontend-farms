@@ -12,12 +12,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   body {
-    background-image: url('/images/egg/back.gif');
-    background-repeat: repeat;
+    background-image:url('/images/egg/back.gif');
+    background-repeat: round;
     background-attachment: fixed;
     img {
       height: auto;
-      max-width: 100%;
+      max-width: 100% ;
     }
   }
 `

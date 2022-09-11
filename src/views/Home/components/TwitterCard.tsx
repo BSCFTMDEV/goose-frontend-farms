@@ -16,7 +16,7 @@ const StyledTwitterCard = styled(Card)`
 `
 
 const Row = styled.div`
-  align-items: center;
+align-items: center;
   display: flex;
   font-size: 14px;
   justify-content: space-between;
@@ -29,23 +29,20 @@ const TwitterCard = () => {
   return (
     <StyledTwitterCard>
       <CardBody>
-        <Heading size="xl" mb="24px">
-          {TranslateString(10003, 'Announcements')}
-        </Heading>
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'GooseFinance'
+            screenName: 'DogeboxNFT'
           }}
           options={{
             height: '300',
             chrome: "noheader, nofooter",
-            width: "400"
+            width: "900"
           }}
         />
       </CardBody>
     </StyledTwitterCard>
   )
 }
-
+ 
 export default TwitterCard
