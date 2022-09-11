@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 3,
-    lpSymbol: 'DGB-BUSD LP',
+    lpSymbol: 'DGT-BUSD LP',
     lpAddresses: {
       2000:'0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17',
       
     },
-    tokenSymbol: 'EGG',
+    tokenSymbol: 'DGT',
     tokenAddresses: {
       2000:'0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
       
@@ -22,12 +22,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'DGB-WDOGE LP',
+    lpSymbol: 'DGT-WDOGE LP',
     lpAddresses: {
       
       2000:'0x76539ea52BC9CaE979856fC79fE87373d1A9aD1C',
     },
-    tokenSymbol: 'EGG',
+    tokenSymbol: 'DGT',
     tokenAddresses: {
       
       2000:'0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
@@ -40,12 +40,12 @@ const farms: FarmConfig[] = [
     pid: 2,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'DGB',
+    lpSymbol: 'DGT',
     lpAddresses: {
     
-      2000: '0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17', // DGB-BUSD LP
+      2000: '0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17', // DGT-BUSD LP
     },
-    tokenSymbol: 'EGG',
+    tokenSymbol: 'DGT',
     tokenAddresses: {
       
       2000: '0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',

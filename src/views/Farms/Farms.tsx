@@ -100,7 +100,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         }
       </Heading>
       <Heading as="h2" color="#A5A7C7" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(1000, 'You need 10 DGB and 1NFT in wallet to be able to harvest and Withdraw .')}
+        {TranslateString(1000, 'You need 10 DGT and 1NFT in wallet to be able to harvest and Withdraw .')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
