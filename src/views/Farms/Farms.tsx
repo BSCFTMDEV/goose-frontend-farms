@@ -91,7 +91,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 
   return (
     <Page>
-      <Heading as="h1" size="lg" color="#A5A7C7" mb="50px" style={{ textAlign: 'center' }}>
+      <Heading as="h1" size="lg" color="#FFFFFF" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
             TranslateString(10002, 'Stake tokens to earn EGG')
@@ -99,8 +99,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           TranslateString(320, 'Stake LP tokens to earn EGG')
         }
       </Heading>
-      <Heading as="h2" color="#A5A7C7" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(1000, 'You need 10 DGT and 1NFT in wallet to be able to harvest and Withdraw .')}
+      <Heading as="h2" color="#FFFFFF" mb="50px" style={{ textAlign: 'center' }}>
+        {TranslateString(1000, 'You need 10 DBT and 1NFT in wallet to be able to harvest and Withdraw .')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>

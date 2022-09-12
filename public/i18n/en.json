@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total DGT burned since launch"
+        "text": "Total DBT burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake YodeSwap LP tokens to earn DGT"
+        "text": "Stake YodeSwap LP tokens to earn DBT"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake DGT, get SYRUP."
+        "text": "Stake DBT, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake DGT tokens, the contract will automatically harvest DGT rewards for you!"
+        "text": "Every time you stake and unstake DBT tokens, the contract will automatically harvest DBT rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "DGT price"
+        "text": "DBT price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 DGT = 1 SYRUP"
+        "text": "1 DBT = 1 SYRUP"
       }
     },
     {
@@ -351,7 +351,7 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% DGT"
+        "text": "%num% DBT"
       }
     },
     {
@@ -435,13 +435,13 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% DGT Available"
+        "text": "%num% DBT Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple  DGT"
+        "text": "Your amount must be a multiple  DBT"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve DGT"
+        "text": "Approve DBT"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of DGT block emissions each day (10 DGT per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of DBT block emissions each day (1 DBT per block), Rewards are distributed each block."
       }
     },
     {
@@ -579,7 +579,7 @@
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB,  burns the DGT."
+        "text": "The project gets the BNB,  burns the DBT."
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New DGT\/block"
+        "text": "New DBT\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "DGT to Harvest"
+        "text": "DBT to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "DGT in Wallet"
+        "text": "DBT in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting DGT"
+        "text": "Collecting DBT"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "DGT to Collect"
+        "text": "DBT to Collect"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake DGT to earn new tokens."
+        "text": "Stake DBT to earn new tokens."
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn DGT"
+        "text": "Stake tokens to earn DBT"
       }
     },
     {

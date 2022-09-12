@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Kanit', sans-serif;
   }
   body {
-    background-image:url('/images/egg/back.gif');
+    background-image:url('/images/egg/back.jpg');
     background-repeat: round;
     background-attachment: fixed;
     img {

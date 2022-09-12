@@ -18,7 +18,7 @@ export default {
     2000: '',
   },
   mulltiCall: {
-    2000: '0x4BD485598a94Ec6fF0d11F9F5bEf7202091d1322',
+    2000: '0xbeA103512c6CBBdA1d33916Ec23e76786D4a6f03',
  
   },
   busd: {

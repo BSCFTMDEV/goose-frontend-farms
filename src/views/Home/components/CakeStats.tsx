@@ -46,7 +46,7 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px" color= "#A5A7C7"     >
-          {TranslateString(534, 'DGT Stats')}
+          {TranslateString(534, 'DBT Stats')}
         </Heading>
         <Row>
           <Text color= "#A5A7C7" fontSize="18px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -65,7 +65,7 @@ const CakeStats = () => {
           {cakeSupply && <CardValue   fontSize="20px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text color= "#A5A7C7"fontSize="18px">{TranslateString(540, 'New DGT/block')}</Text>
+          <Text color= "#A5A7C7"fontSize="18px">{TranslateString(540, 'New DBT/block')}</Text>
           <Text   bold fontSize="20px">{DogeboxPerBlock}</Text>
           </Row>
         <Row>
