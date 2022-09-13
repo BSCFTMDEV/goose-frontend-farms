@@ -17,12 +17,12 @@ interface FarmCardActionsProps {
   depositFeeBP?: number
 }
 
-const IconButtonWrapper = styled.div`
+ const IconButtonWrapper = styled.div`
   display: flex;
   svg {
     width: 20px;
   }
-`
+` 
 
 const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalance, tokenName, pid, depositFeeBP}) => {
   const TranslateString = useI18n()
@@ -50,7 +50,7 @@ const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalan
         </IconButton>
       </IconButtonWrapper>
     )
-  }
+  } 
 
   return (
     <Flex justifyContent="space-between" alignItems="center">

@@ -9,19 +9,19 @@ const config: MenuEntry[] = [
    
     items: 
     [
-    /* {
+     {
        label: 'Mint',
        href: 'https://nfts.dogebox.dog/Mint',
      },
-     {
+    /*  {
        label: 'StakeNFT',
        href: 'https://nfts.dogebox.dog/Mining',
-     },
+     }, */
      {
        label: 'Dashboard',
        href: 'https://nfts.dogebox.dog/portal',
      },
-     */
+     
    ], 
    calloutClass: "rainbow",
   },
@@ -56,6 +56,18 @@ const config: MenuEntry[] = [
     href: 'https://t.me/DogeboxNFT',
   calloutClass: "rainbow",
   },
+ 
+  
+
+
+  {
+    label: 'Chart',
+    icon: 'InfoIcon',
+    href: 'https://dexscreener.com/',
+    calloutClass: "rainbow",
+  },
+
+
   {
     label: 'GitHub',
     icon: 'AuditIcon',
@@ -64,7 +76,7 @@ const config: MenuEntry[] = [
   },
 
  /* {
-    label: 'Info',
+    label: '',
     icon: 'InfoIcon',
     items: [
       {

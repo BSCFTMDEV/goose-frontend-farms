@@ -7,12 +7,12 @@ const farms: FarmConfig[] = [
     risk: 3,
     lpSymbol: 'DBT-BUSD LP',
     lpAddresses: {
-      2000:'0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17',
+      2000:'0xB324176a4DF66B4CbE5148C7fef090F4116D27b2',
       
     },
     tokenSymbol: 'DBT',
     tokenAddresses: {
-      2000:'0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
+      2000:'0x2279c88fa9329FCc1070Ad5FC471Ad00D138ac94',
       
     },
     quoteTokenSymbol: QuoteToken.BUSD,
@@ -25,12 +25,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DBT-WDOGE LP',
     lpAddresses: {
       
-      2000:'0x76539ea52BC9CaE979856fC79fE87373d1A9aD1C',
+      2000:'0x690fde17CdaBe13e3fEd858313fF9FD6C9a9FA39',
     },
     tokenSymbol: 'DBT',
     tokenAddresses: {
       
-      2000:'0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
+      2000:'0x2279c88fa9329FCc1070Ad5FC471Ad00D138ac94',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -43,12 +43,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DBT',
     lpAddresses: {
     
-      2000: '0xdEe43c3f8a8E9651d96f465F4b7b384392Db6b17', // DBT-BUSD LP
+      2000: '0xB324176a4DF66B4CbE5148C7fef090F4116D27b2', 
     },
     tokenSymbol: 'DBT',
     tokenAddresses: {
       
-      2000: '0xa0991762bb124cF6aa65e0FBB1f319038Ac6E021',
+      2000: '0x2279c88fa9329FCc1070Ad5FC471Ad00D138ac94',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

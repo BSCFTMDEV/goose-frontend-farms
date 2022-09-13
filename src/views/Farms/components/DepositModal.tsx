@@ -33,7 +33,7 @@ const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, 
     setVal(fullBalance)
   }, [fullBalance, setVal])
 
-  return (
+  return   (
     <Modal title={`${TranslateString(316, 'Deposit')} ${tokenName} Tokens`} onDismiss={onDismiss}>
       <TokenInput
         value={val}
@@ -42,11 +42,11 @@ const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, 
         max={fullBalance}
         symbol={tokenName}
         depositFeeBP={depositFeeBP}
-      />
+      /> 
       <ModalActions>
-        <Button variant="secondary" onClick={onDismiss}>
+    <Button variant="secondary" onClick={onDismiss}>
           {TranslateString(462, 'Cancel')}
-        </Button>
+        </Button>  
         <Button
           disabled={pendingTx}
           onClick={async () => {
@@ -57,10 +57,10 @@ const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, 
           }}
         >
           {pendingTx ? TranslateString(488, 'Pending Confirmation') : TranslateString(464, 'Confirm')}
-        </Button>
+        </Button> 
       </ModalActions>
-    </Modal>
+    </Modal> 
   )
-}
+} 
 
 export default DepositModal

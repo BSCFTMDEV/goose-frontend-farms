@@ -20,7 +20,7 @@ const useStake = (pid: number) => {
   )
 
   return { onStake: handleStake }
-}
+} 
 
 export const useSousStake = (sousId, isUsingBnb = false) => {
   const dispatch = useDispatch()
@@ -44,6 +44,6 @@ export const useSousStake = (sousId, isUsingBnb = false) => {
   )
 
   return { onStake: handleStake }
-}
+} 
 
 export default useStake
