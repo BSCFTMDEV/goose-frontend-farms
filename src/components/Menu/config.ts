@@ -63,7 +63,7 @@ const config: MenuEntry[] = [
   {
     label: 'Chart',
     icon: 'InfoIcon',
-    href: 'https://dexscreener.com/',
+    href: 'https://dexscreener.com/dogechain/0xb324176a4df66b4cbe5148c7fef090f4116d27b2',
     calloutClass: "rainbow",
   },
 
